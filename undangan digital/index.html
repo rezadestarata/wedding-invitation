@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Erina Nurfitri & Jejen Suryana</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&family=Alex+Brush&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Combine all styles into one block and remove duplicates */
+        :root {
+            --gold-primary: #d4af37;
+            --gold-secondary: #ffd700;
+            --gold-accent: #ffdf80;
+            --bg-color: #800000;
+            --text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            --box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Playfair Display', serif;
+            background-color: var(--bg-color);
+            color: var(--gold-primary);
+            line-height: 1.6;
+        }
+
+        .hero {
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                        url('images/hero-bg.png') center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero-content {
+            padding: 2rem;
+        }
+
+        h1 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 4rem;
+            color: var(--gold-secondary);
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .date {
+            font-size: 1.5rem;
+            color: var(--gold-accent);
+            margin: 1rem 0;
+        }
+
+        .section {
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .couple-section {
+            background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
+        }
+
+        .couple-photos {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 2rem 0;
+        }
+
+        .couple-photo {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 3px solid var(--gold-primary);
+            overflow: hidden;
+            margin: 1rem;
+        }
+
+        .event-details {
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+            padding: 2rem;
+            border-radius: 10px;
+            border: 1px solid var(--gold-primary);
+            margin: 2rem auto;
+            max-width: 600px;
+        }
+
+        .quran-quote {
+            font-style: italic;
+            padding: 2rem;
+            background: rgba(212, 175, 55, 0.1);
+            border-radius: 10px;
+            margin: 2rem 0;
+        }
+
+        .rsvp {
+            background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
+        }
+
+        .rsvp-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: var(--gold-primary);
+            color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .rsvp-button:hover {
+            background: var(--gold-secondary);
+            transform: scale(1.05);
+        }
+
+        .music-control {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background: var(--gold-primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        .music-control i {
+            color: #000;
+            font-size: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 3rem;
+            }
+
+            .couple-photo {
+                width: 200px;
+                height: 200px;
+            }
+
+            .section {
+                padding: 2rem 1rem;
+            }
+        }
+    </style>
+</head>
+<!-- Update struktur nama mempelai -->
+<div class="hero" data-aos="fade">
+    <div class="hero-content">
+        <h1>
+            Erina Nurfitri
+            <span>&</span>
+            Jejen Suryana
+        </h1>
+        <p>We're Getting Married</p>
+        <div class="date">27  April 2025</div>
+    </div>
+</div>
+
+    <section class="section couple-section" data-aos="fade-up">
+        <h2>Bismillahirrahmanirrahim</h2>
+        <p>Dengan memohon rahmat dan ridha Allah SWT, kami bermaksud menyelenggarakan acara pernikahan putra-putri kami:</p>
+        
+        <div class="couple-photos">
+            <div class="couple-photo" data-aos="fade-right">
+                <img src="images/groom.jpg" alt="Mickey">
+                <h3>ERINA NURFITRI</h3>
+                <p>Putri dari Bapak Aan Sutisna & Ibu Entin Kustini</p>
+            </div>
+            <div class="couple-photo" data-aos="fade-left">
+                <img src="images/bride.jpg" alt="Mini">
+                <h3>Jejen Suryana</h3>
+                <p>Putra dari Bapak Aris Daryanto & Ibu Suyem</p>
+            </div>
+        </div>
+
+        <div class="event-details">
+            <h2>Akad Nikah</h2>
+            <p>📆 Rabu, 27April 2025</p>
+            <p>⏰ Pukul 08.00 WIB</p>
+            <p>📍 Blok Rabo Rt.01 Rw.04 Desa Kodasari Kec Ligung Kabupaten Majalengka</p>
+
+            <h2>Resepsi Pernikahan</h2>
+            <p>⏰ Pukul 10.00 WIB – selesai</p>
+            <p>📍 Blok Rabo Rt.01 Rw.04 Desa Kodasari Kec Ligung Kabupaten Majalengka</p>
+        </div>
+
+        <div class="guest-list" data-aos="fade-up">
+            <h2>Turut Mengundang</h2>
+            <div class="guest-grid">
+                <div class="guest-item">Bapak Oding Samsudin, S.Pd (Kuwu Kodasari)</div>
+                <div class="guest-item">Bapak Sugianto (Mantan Kuwu Kodasari)</div>
+                <div class="guest-item">Bapak Doto</div>
+                <div class="guest-item">Bapak E. Wartam Haryadi, S.Pd</div>
+                <div class="guest-item">Bapak Supardi</div>
+                <div class="guest-item">Segenap Family</div>
+            </div>
+        </div>
+
+        <div class="quran-quote" data-aos="fade">
+            "Dan di antara tanda-tanda kekuasaan-Nya adalah Dia menciptakan untukmu pasangan hidup dari jenismu sendiri supaya kamu merasa tenteram di sampingnya, dan dijadikan-Nya di antaramu rasa kasih dan sayang." (QS. Ar-Rum: 21)
+        </div>
+    </section>
+
+    <section class="section rsvp" data-aos="fade-up">
+        <div class="closing-message">
+            <h2>Merupakan suatu kehormatan dan kebahagiaan bagi kami</h2>
+            <p>apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan do'a restu kepada kedua mempelai.</p>
+            <p class="thank-you">Atas kehadiran dan do'a restunya,<br>kami ucapkan terima kasih.</p>
+            <div class="signature">Wassalamu'alaikum Warahmatullahi Wabarakatuh</div>
+        </div>
+        <h2>Konfirmasi Kehadiran</h2>
+        <p>Silakan konfirmasi kehadiran melalui WhatsApp:</p>
+        <a href="https://wa.me/6281806106772" class="rsvp-button">
+            <i class="fab fa-whatsapp"></i> Konfirmasi RSVP
+        </a>
+    </section>
+
+    <audio id="bgMusic" loop>
+        <source src="music/romantic-song.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="music-control">
+        <i class="fas fa-music"></i>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Add this modal after opening body tag -->
+    <div id="welcomeModal" class="modal">
+        <div class="modal-content">
+            <h2>Wedding Invitation</h2>
+            <p>Yang Terhormat</p>
+            <span id="guestName">Guest</span>
+            <p>Kami mengundang Anda untuk berbagi kebahagiaan di hari pernikahan kami</p>
+            <button onclick="closeModal()">Open Invitation</button>
+        </div>
+    </div>
+
+    <!-- Update the script section -->
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    
+        const music = document.getElementById('bgMusic');
+        const musicControl = document.querySelector('.music-control');
+        let isPlaying = false;
+    
+        // Modal Control
+        function closeModal() {
+            document.getElementById('welcomeModal').style.display = 'none';
+            playMusic();
+            
+            // Add delay before starting auto scroll
+            setTimeout(() => {
+                startAutoScroll();
+            }, 1000);
+        }
+    
+        // Add auto scroll function
+        function startAutoScroll() {
+            const sections = document.querySelectorAll('section');
+            let currentSection = 0;
+    
+            function scrollToNextSection() {
+                if (currentSection < sections.length) {
+                    sections[currentSection].scrollIntoView({ behavior: 'smooth' });
+                    currentSection++;
+                    if (currentSection < sections.length) {
+                        setTimeout(scrollToNextSection, 3000); // Scroll every 3 seconds
+                    }
+                }
+            }
+    
+            scrollToNextSection();
+        }
+    
+        function playMusic() {
+            music.play();
+            musicControl.innerHTML = '<i class="fas fa-pause"></i>';
+            isPlaying = true;
+        }
+    
+        musicControl.addEventListener('click', function() {
+            if (isPlaying) {
+                music.pause();
+                musicControl.innerHTML = '<i class="fas fa-music"></i>';
+            } else {
+                playMusic();
+            }
+            isPlaying = !isPlaying;
+        });
+    
+    // Get guest name from URL
+    function getGuestName() {
+        const params = new URLSearchParams(window.location.search);
+        return params.get('to') || 'Guest';
+    }
+
+    // Set guest name
+    document.getElementById('guestName').textContent = getGuestName();
+</script>
+    <style>
+        /* Add these to your existing styles */
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2000;
+        }
+
+        .modal-content {
+            background: #1a1a1a;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid var(--gold-primary);
+        }
+
+        .modal-content button {
+            background: var(--gold-primary);
+            color: #000;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 1rem;
+            font-family: 'Playfair Display', serif;
+            transition: all 0.3s ease;
+        }
+
+        .modal-content button:hover {
+            background: var(--gold-secondary);
+            transform: scale(1.05);
+        }
+
+        /* Update the scroll indicator style */
+        .scroll-indicator {
+            display: none; /* Hide the indicator */
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            background: var(--gold-primary);
+            color: #000;
+            padding: 10px;
+            border-radius: 5px;
+            z-index: 1000;
+            font-size: 0.8rem;
+        }
+    </style>
+</body>
+</html>
+
+<style>
+    :root {
+        --gold-primary: #d4af37;
+        --gold-secondary: #ffd700;
+        --gold-accent: #ffdf80;
+        --bg-color: #800000;
+        --text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        --box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    /* Update existing styles */
+    .couple-photo {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 5px solid var(--gold-primary);
+        overflow: hidden;
+        margin: 1rem;
+        box-shadow: var(--box-shadow);
+        position: relative;
+        transition: transform 0.3s ease;
+    }
+
+    .couple-photo:hover {
+        transform: scale(1.05);
+    }
+
+    .couple-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .couple-photo h3 {
+        margin-top: 1rem;
+        font-family: 'Tangerine', cursive;
+        font-size: 2.5rem;
+        color: var(--gold-secondary);
+        text-shadow: var(--text-shadow);
+    }
+
+    .couple-photo p {
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+        color: var(--gold-accent);
+    }
+
+    .event-details {
+        background: linear-gradient(rgba(128,0,0,0.8), rgba(128,0,0,0.9));
+        padding: 2.5rem;
+        border-radius: 15px;
+        border: 2px solid var(--gold-primary);
+        margin: 2rem auto;
+        max-width: 600px;
+        box-shadow: var(--box-shadow);
+    }
+
+    .event-details h2 {
+        font-family: 'Tangerine', cursive;
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+        text-shadow: var(--text-shadow);
+    }
+
+    .event-details p {
+        margin: 1rem 0;
+        font-size: 1.1rem;
+        line-height: 1.8;
+    }
+
+    .quran-quote {
+        font-style: italic;
+        padding: 2.5rem;
+        background: rgba(128,0,0,0.7);
+        border-radius: 15px;
+        margin: 2.5rem 0;
+        border: 1px solid var(--gold-accent);
+        box-shadow: var(--box-shadow);
+        font-size: 1.2rem;
+        line-height: 1.8;
+    }
+
+    /* Add new countdown timer styles */
+    .countdown {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin: 2rem 0;
+    }
+
+    .countdown-item {
+        background: rgba(128,0,0,0.8);
+        padding: 1rem;
+        border-radius: 10px;
+        border: 1px solid var(--gold-primary);
+        min-width: 100px;
+        text-align: center;
+    }
+
+    .countdown-number {
+        font-size: 2rem;
+        color: var(--gold-secondary);
+        font-weight: bold;
+    }
+
+    .countdown-label {
+        font-size: 0.9rem;
+        color: var(--gold-accent);
+    }
+</style>
+
+<!-- Add countdown timer HTML after the date div -->
+<div class="countdown">
+    <div class="countdown-item">
+        <div class="countdown-number" id="days">00</div>
+        <div class="countdown-label">Hari</div>
+    </div>
+    <div class="countdown-item">
+        <div class="countdown-number" id="hours">00</div>
+        <div class="countdown-label">Jam</div>
+    </div>
+    <div class="countdown-item">
+        <div class="countdown-number" id="minutes">00</div>
+        <div class="countdown-label">Menit</div>
+    </div>
+    <div class="countdown-item">
+        <div class="countdown-number" id="seconds">00</div>
+        <div class="countdown-label">Detik</div>
+    </div>
+</div>
+
+<!-- Add countdown timer JavaScript before closing body tag -->
+<script>
+    function updateCountdown() {
+        const weddingDate = new Date('2025-04-27T08:00:00').getTime();
+        const now = new Date().getTime();
+        const distance = weddingDate - now;
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById('days').textContent = String(days).padStart(2, '0');
+        document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+        document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+        document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+    }
+
+    setInterval(updateCountdown, 1000);
+    updateCountdown();
+</script>
+
+<!-- Tambahkan scroll indicator di sini, sebelum closing body -->
+<div class="scroll-indicator">Auto-scrolling...</div>
+
+<!-- Gabungkan semua script menjadi satu -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        const music = document.getElementById('bgMusic');
+        const musicControl = document.querySelector('.music-control');
+        const sections = document.querySelectorAll('section');
+        const scrollIndicator = document.querySelector('.scroll-indicator');
+        let isPlaying = false;
+        let currentSection = 0;
+        let isScrolling = false;
+        let autoScrollInterval;
+
+        function playMusic() {
+            music.play();
+            musicControl.innerHTML = '<i class="fas fa-pause"></i>';
+            isPlaying = true;
+        }
+
+        function autoScroll() {
+            const scrollHeight = document.documentElement.scrollHeight;
+            const duration = 30000; // 30 seconds to scroll through entire page
+            
+            function smoothScroll() {
+                const start = window.pageYOffset;
+                const startTime = performance.now();
+                
+                function scroll(currentTime) {
+                    const elapsed = currentTime - startTime;
+                    const progress = Math.min(elapsed / duration, 1);
+                    
+                    window.scrollTo(0, start + (scrollHeight - window.innerHeight) * progress);
+                    
+                    if (progress < 1) {
+                        requestAnimationFrame(scroll);
+                    } else {
+                        // When reaching bottom, reset to top and start again
+                        window.scrollTo(0, 0);
+                        setTimeout(smoothScroll, 1000); // Wait 1 second before starting next cycle
+                    }
+                }
+                
+                requestAnimationFrame(scroll);
+            }
+            
+            smoothScroll(); // Start the first cycle
+        }
+
+        // Update closeModal function
+        window.closeModal = function() {
+            document.getElementById('welcomeModal').style.display = 'none';
+            playMusic();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            
+            setTimeout(() => {
+                isScrolling = true;
+                scrollIndicator.style.display = 'block';
+                autoScroll();
+            }, 1000);
+        };
+
+        // Music Control
+        musicControl.addEventListener('click', function() {
+            if (isPlaying) {
+                music.pause();
+                musicControl.innerHTML = '<i class="fas fa-music"></i>';
+            } else {
+                playMusic();
+            }
+            isPlaying = !isPlaying;
+        });
+
+        // Handle manual scroll
+        window.addEventListener('wheel', function() {
+            if (isScrolling) {
+                clearInterval(autoScrollInterval);
+                isScrolling = false;
+                scrollIndicator.style.display = 'none';
+            }
+        });
+
+        // Set guest name
+        document.getElementById('guestName').textContent = new URLSearchParams(window.location.search).get('to') || 'Guest';
+    });
+</script>
+</body>
+</html>
